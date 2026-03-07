@@ -971,3 +971,113 @@ html{
     justify-content: center;
     gap: 20px;
 }
+
+
+/* TABLET - 768px and below */
+@media (max-width: 768px) {
+
+    .header-container {
+        height: 80vh;
+         text-align: left;
+    }
+
+    .header-container .intro h1 {
+        padding-top: 60px;
+        font-size: 40px;
+    }
+
+    .header-container .intro p,
+    .header-container .intro span {
+       display: none;
+    }
+    
+
+    .header-container .top-bar .order-btn {
+        top: 50%;
+        right: 35%;
+        font-size: 18px;
+    }
+
+    .item, .item2, .item3, .item4,
+    .item5, .item6, .item7 {
+        flex-direction: column;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 10px;
+    }
+
+    .item .cookie, .item2 .cookie, .item3 .cookie,
+    .item4 .cookie, .item5 .cookie, .item6 .cookie,
+    .item7 .cookie {
+        height: 270px;
+        width: 270px;
+        margin-left: 0;
+    }
+
+    .item .block-text h1, .item2 .block-text h1,
+    .item3 .block-text h1, .item4 .block-text h1,
+    .item5 .block-text h1, .item6 .block-text h1,
+    .item7 .block-text h1 {
+        font-size: 30px;
+    }
+
+    .feb h2, .available h2 {
+        font-size: 50px;
+    }
+
+    .item .order, .item2 .order, .item3 .order,
+    .item4 .order, .item5 .order, .item6 .order,
+    .item7 .order {
+
+    cursor: pointer;
+    margin-left: 30px;
+       
+    }
+
+    .item .learn, .item2 .learn, .item3 .learn,
+    .item4 .learn, .item5 .learn, .item6 .learn,
+    .item7 .learn {
+
+    cursor: pointer;
+    margin-left: 250px;
+       
+    }
+    .item:hover, .item2:hover, .item3:hover,
+    .item4:hover, .item5:hover, .item6:hover,
+    .item7:hover {
+        background-color: white;
+        color:black
+    }
+    .company h1 {
+        font-size: 30px;
+    }
+    .company .order,.story,  .Rewards, .Support ,.Blog,.Gift, .map {
+        font-size: 15px;
+        margin-left: 10px;
+    }
+    .get-involved h1 {
+        font-size: 25px;
+    }
+
+    .get-involved .press,.cares, .Collaborate, .Franchising{
+        font-size: 17px;
+        margin-left: 10px;
+        padding:  5px 5px;
+        margin-right: 20px;
+    }
+    .get-involved .cares{
+       display:none;
+    }
+    .icons img{
+        height:28px;
+        width:28px;
+    }
+    .icons{
+        margin-bottom: 20px;
+    }
+   
+}
+
+
+
+
