@@ -6,3 +6,6 @@ function btnClickHandler() {
   para.innerHTML = "Button was clicked!";
   para.style.backgroundColor = "aqua";
 }
+
+$("#myDiv").css("background-color", "yellow");
+$(this).css("background-color", "lightgreen");
