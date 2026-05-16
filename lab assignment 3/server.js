@@ -168,10 +168,7 @@ app.delete("/admin/products/:id", isAdmin, async (req, res) => {
   res.redirect("/admin");
 });
 
-
-// Protect checkout (example)
 app.get("/checkout", isLoggedIn, (req, res) => res.render("checkout"));
-
 
 app.post("/login", async (req, res) => {
   const user = await User.findOne({ email: req.body.email });
@@ -181,7 +178,7 @@ app.post("/login", async (req, res) => {
     return res.redirect("/login");
   }
   req.session.user = { id: user._id, name: user.name, role: user.role };
-  console.log("SESSION USER:", req.session.user); // ← ADD THIS
+  console.log("SESSION USER:", req.session.user); 
 
   req.flash("success", `Welcome back, ${user.name}!`);
   res.redirect("/");
