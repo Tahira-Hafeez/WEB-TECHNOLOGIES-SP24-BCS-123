@@ -1,7 +1,5 @@
 const mongoose = require("mongoose");
 const Product  = require("./model/products");
-const products = require("./model/products");
-
 mongoose.connect("mongodb://localhost:27017/crumblDB");
 
 const cookies = [
