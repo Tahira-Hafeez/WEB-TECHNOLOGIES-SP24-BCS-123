@@ -130,12 +130,13 @@ html{
     top: 300px;
     right: 580px;
     padding: 10px 20px;
-    background-color:black;
+    background-color: black;
     color: white;
     border: none;
     border-radius: 30px;
     font-size: 30px;
     cursor: pointer;
+
 }
 .header-container .top-bar .order-btn:hover {
     background-color: #ff8ab4;
@@ -146,6 +147,11 @@ html{
     Roboto, Helvetica, Arial, sans-serif ;
     font-size: 20px;
     font-weight: 3800;
+    color: white;
+    text-decoration: none;
+}
+.header-container .top-bar a{
+     text-decoration: none;
 }
 .feb .date{
     background-color:#ffa9c8;
